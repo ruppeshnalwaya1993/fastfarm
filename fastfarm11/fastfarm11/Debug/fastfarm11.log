@@ -1,0 +1,65 @@
+﻿Build started 20-Nov-13 12:47:54 AM.
+     1>Project "C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\fastfarm11\fastfarm11.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\fastfarm11.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CApp_OnInit.cpp
+         CApp_OnInit.cpp
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(12): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(19): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(19): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(51): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(52): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\rn\documents\visual studio 2010\projects\fastfarm11\fastfarm11\capp_oninit.cpp(107): warning C4715: 'loadWarehouse' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\Debug\fastfarm11.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\fastfarm11.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\Debug\fastfarm11.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\Debug\fastfarm11.lib" /MACHINE:X86 Debug\CAnimation.obj
+         Debug\CApp.obj
+         Debug\CAppConstants.obj
+         Debug\CApp_OnCleanup.obj
+         Debug\CApp_OnEvent.obj
+         Debug\CApp_OnGameOver.obj
+         Debug\CApp_OnInit.obj
+         Debug\CApp_OnLoop.obj
+         Debug\CApp_OnRender.obj
+         Debug\CArea.obj
+         Debug\CBuilder.obj
+         Debug\CCamera.obj
+         Debug\CEntity.obj
+         Debug\CEvent.obj
+         Debug\CHelp.obj
+         Debug\CMap.obj
+         Debug\CMenu.obj
+         Debug\CMulti.obj
+         Debug\CPlant.obj
+         Debug\CPlantM.obj
+         Debug\CPlayersM.obj
+         Debug\CSeedlingW.obj
+         Debug\CSurface.obj
+         Debug\CTile.obj
+         Debug\CTimer.obj
+         Debug\main.obj
+         LINK : C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\Debug\fastfarm11.exe not found or not built by the last incremental link; performing full link
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         fastfarm11.vcxproj -> C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\Debug\fastfarm11.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\Debug\fastfarm11.exe;#1" /manifest Debug\fastfarm11.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\fastfarm11.unsuccessfulbuild".
+         Touching "Debug\fastfarm11.lastbuildstate".
+     1>Done Building Project "C:\Users\rn\documents\visual studio 2010\Projects\fastfarm11\fastfarm11\fastfarm11.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.06
