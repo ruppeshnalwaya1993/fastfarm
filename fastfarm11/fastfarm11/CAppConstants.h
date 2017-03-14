@@ -1,5 +1,5 @@
 #ifndef _CAPPCONSTANSTS_H_
-    #define _CAPPCONSTANSTS_H_
+#define _CAPPCONSTANSTS_H_
 
 #include <iostream>
 #include <stdio.h>

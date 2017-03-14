@@ -5,39 +5,39 @@ CTimer::CTimer()
 {
 }
 
-void CTimer::Start(){
+void CTimer::Start() {
     mStarted = true;
     mPaused  = false;
     mStartTicks = SDL_GetTicks();
 }
-void CTimer::Stop(){
+void CTimer::Stop() {
     mStarted = false;
     mPaused  = false;
 }
 
-void CTimer::Pause(){
-    if (mStarted && !mPaused){
+void CTimer::Pause() {
+    if (mStarted && !mPaused) {
         mPaused = true;
         mPausedTicks = SDL_GetTicks() - mStartTicks;
     }
 }
 
-void CTimer::Unpause(){
-    if (mPaused){
+void CTimer::Unpause() {
+    if (mPaused) {
         mPaused = false;
         mStartTicks = SDL_GetTicks() - mPausedTicks;
         mPausedTicks = 0;
     }
 }
 
-int CTimer::Restart(){
+int CTimer::Restart() {
     int elapsedTicks = Ticks();
     Start();
     return elapsedTicks;
 }
 
 int CTimer::Ticks() const {
-    if (mStarted){
+    if (mStarted) {
         if (mPaused)
             return mPausedTicks;
         else
