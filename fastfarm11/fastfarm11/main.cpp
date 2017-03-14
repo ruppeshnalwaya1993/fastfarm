@@ -11,7 +11,8 @@
 using namespace std;
 
 int main(int argc, char **argv){
-    SDL_Renderer* ren; SDL_Window* window;
+    SDL_Renderer* ren;
+    SDL_Window* window;
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         //logSDLError(stdout, "SDL_Init");
         printf("error3");
