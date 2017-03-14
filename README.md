@@ -6,7 +6,7 @@ A game submitted for intel app innovation challenge 2013
 YOUTUBE link:
 http://youtu.be/F_9mWhdrzTI
 
-#FASTFARM - a puzzle game based on Conway's game of life
+# FASTFARM - a puzzle game based on Conway's game of life
 
 Installation:
 One click installation using fastfarm.msi OR setup.exe
@@ -14,11 +14,10 @@ No additional drivers required for Lenovo AIO.
 
 
 About the Game Development:
-The game has been developed in C++ using Simple DirectMedia Layer(SDL2 2.0.1) libraries
-for graphics rendering and handling events and window operation.
+The game has been developed in C++ using Simple DirectMedia Layer(SDL2 2.0.1) libraries for graphics rendering and handling events and window operation. For building the source code, you need Visual studio 10+ and SDL2 library. To install [SDL](https://www.libsdl.org) library, download it from [here](https://www.libsdl.org/release/SDL2-devel-2.0.1-VC.zip), unzip the contents and place the folder SDL2-2.0.1 in C: drive. Also download [SDL image package](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.1-VC.zip) and [SDL ttf package](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip) and place the header files and lib files in appropriate folders inside C:\SDL2-2.0.1 
 
 About Gameplay:
-FastFarm is a puzzle game based on the zero player game of Conway's game of life. It is very brainstorming game. The enthusiasts who like cracking puzzle and can solve puzzles quiclkly would love this game.
+FastFarm is a puzzle game based on the zero player game of [Conway's game of life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life). It is very brainstorming game. The enthusiasts who like cracking puzzle and can solve puzzles quiclkly would love this game.
 The game consists of 2 modes:
 
 1. puzzle challenge
@@ -32,7 +31,7 @@ Instead of cutting the weeds he uses his own theory of life according to which a
 has following life cycle:
 
 1. If a weed has less than 2 weeds in its neighbourhood, it dies due to under-population. 
-2. If a weed has 2,3 or 4 weeds in its neighbourhood, it lives. 
+2. If a weed has 2, 3 or 4 weeds in its neighbourhood, it lives. 
 3. If a weed hs exactly 4 weeds in its neighbourhood, it reproduces, but only once in its lifetime. 
 4. If a weed has more than 4 weeds in its neighbourhood, it dies due to over-population.
 
@@ -51,7 +50,8 @@ It is two-player realtime game mode in which two players compete against each ot
 From "Puzle challenge" Dr. Plankenstein has cleared all the weeds. Now he is going to plant his crops. But Dr. Herbestien has become his rival. 
 
 2 Players play as Dr. Plankenstein (Player 1) and Dr. Herbestein (Player 2) and compete to capture the farm by planting more crops than opponent in given period of time. 
-Life cylce of crop : 	It is same as that of weeds in "Puzzle challenge" except that crops due to genetic engineering by doctors has got special attributes like ---
+
+Life cylce of crop : It is same as that of weeds in "Puzzle challenge" except that crops due to genetic engineering by doctors has got special attributes like:
 1. Every crop irrespective of neighbourhood reproduces indefinately in its lifetime. So the stock is never empty. Infinite crops can be planted.
 2. A crop may also die if its neighbourhood has more crops of opponent than itself.
 3. Some crop plants have abilty to survive in either under or over population.
