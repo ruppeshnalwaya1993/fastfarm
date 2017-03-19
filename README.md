@@ -6,6 +6,10 @@ A game submitted for intel app innovation challenge 2013
 YOUTUBE link:
 http://youtu.be/F_9mWhdrzTI
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=F_9mWhdrzTI
+" target="_blank"><img src="http://img.youtube.com/vi/F_9mWhdrzTI/0.jpg" 
+alt="FastFarm YouTube Video" width="240" height="180" border="10" /></a>
+
 # FASTFARM - a puzzle game based on Conway's game of life
 
 Installation:
